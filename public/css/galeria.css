@@ -1,0 +1,10 @@
+img {
+    width: 50%;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+section {
+    column-count: 4;
+    column-gap: 25px;
+}

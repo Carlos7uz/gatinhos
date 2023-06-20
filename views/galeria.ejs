@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/formulario.css">
+</head>
+<body>
+  <a href="/logout" class="logout-link">Sair</a>
+  <h1 id="meuTitulo">Galeria de Fotos</h1>
+  <p>Quer adicionar uma foto? <a href="/fotogato">Adicionar</a></p>
+  <br><br><br><br>
+  <div id="foto-container">
+    <% for(let i = 0; i < fotos.length; i++) { %>
+      <img src="<%= fotos[i] %>" alt="Foto <%= i+1 %>" class="foto-itens">
+    <% } %>
+  </div>
+  <div class="nome_gato">
+    
+  </div>
+  
+</body>
+</html>

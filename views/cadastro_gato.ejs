@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/formulario.css">
+</head>
+<body>
+  <h1 id="meuTitulo">Cadastro</h1>
+  <br><br>
+    <form action='/add' method="POST">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" class="form-control" required>
+
+        <label for="email">Email: </label>
+        <input type="text" name="email" class="form-control" required>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" class="form-control" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+        <br><br>
+        <p>Já tem uma conta? <a href="/login">Vá para o login</a></p>
+    </div>
+  </div>
+  
+</body>
+</html>
